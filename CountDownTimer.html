@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Count Down Timer</title>
+    <style>
+        .clock {
+            background-color: blue;
+            width: 400px;
+            text-align: center;
+            color: white;
+            font-size: 1em;
+        }
+        .clock > span {
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+        }
+        .clock > span > span {
+            padding: 5px;
+            border-radius: 10px;
+            background-color: red;
+        }
+        input {
+            padding: 15px;
+            margin: 20px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+<input type="date" name="endClock">
+<div class="clock">
+    <span><span class="days">0</span>Days</span>
+    <span><span class="hours">0</span>Hours</span>
+    <span><span class="minutes">0</span>Minutes</span>
+    <span><span class="seconds">0</span>Seconds</span>
+</div>
+<script src="CountDownTimer.js"></script>
+</body>
+
+</html>
